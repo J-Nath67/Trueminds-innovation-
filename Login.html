@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+  <head>
+    <title>Chucks Kitchen - Create an Account</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Chucks Kitchen - bringing rich culinary heritage of Nigeria right to your doorstep" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <script src="https://kit.fontawesome.com/36b1c787e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body class="mainAcc">
+    <div class="split">
+      <div class="leftAcc">
+        <h2>Chucks Kitchen</h2>
+        <p>Your Journey to delicious, authentic Nigerian meals starts here. Sign up or log in to order your favorites today!</p>
+      </div>
+      <div class="right">
+        <div class="headerAcc">
+          <x>Chucks Kitchen</x>
+          <h3>Login Your Account</h3>
+        </div>
+        <div class="bodyAcc">
+            <form class="form">
+                <label>Email or Phone number</label><br><div><img src="./images/mail_icon.svg"><input type="email" placeholder="name@gmail.com"></div>
+                <br>
+                <label>Password (click the icon to show password)</label><br><div><img src="./images/eye_slash_icon.svg" id="hideIcon" style="display: none;"><img src="./images/eye_icon.svg" id="showIcon"><input type="password" placeholder="QWE123#" title="type in category" id="password"></div>
+                <br>
+                <a href="#" style="float: right; margin-right: 8%; margin-bottom: 3%;">Forgot Password?</a>
+                <div><input type="button" value="Continue" style="background-color: #d16002; color: white; text-align: center; border-radius: 5px; height: 40px; padding: 8px; border: none; margin-left: 7%;"></div>
+            </form>
+            <script>
+                const password = document.getElementById('password');
+                const showIcon = document.getElementById('showIcon');
+                const hideIcon = document.getElementById('hideIcon');
+
+                showIcon.addEventListener('click', function () {
+                    password.type = "text"
+                    showIcon.style.display = "none"
+                    hideIcon.style.display = "block"
+                });
+
+                hideIcon.addEventListener('click', function () {
+                    password.type = "password"
+                    hideIcon.style.display = "none"
+                    showIcon.style.display = "block"
+                });
+            </script>
+          <p>Or continue with</p>
+          <y><a href="#"><img src="./images/facebook_logo.svg">Continue with Facebook</a></y>
+          <y><a href="#"><img src="./images/apple_logo.svg">Continue with Apple</a></y>
+          <p>Don't have an account? <a href="#">Create an account</a></p>
+        </div>
+      </div>
+    </div>
+    <footer class="landing">
+      <div class="red">
+        <p><b><x>Chucks Kitchen</x></b><br>Bringing the authentic flavours of Nigerian home cooking to your
+        table, with passion and care.</p>
+        <ul>
+          <li><b>Quick Links</b></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">My Order</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+          <li><b>Contact Us</b></li>
+          <li><a href="#">+234 801 234 5678</a></li>
+          <li><a href="#">hello@chukskitchen.com</a></li>
+          <li>123 Taste Blvd, Lagos, Nigeriat</li>
+        </ul>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <p>&copy 2020 Lift Media. All rights reserved.<br>I hope you like here too &#128524 &#128524 &#128524 please click <a href="Landing Page.html" style="text-decoration: solid; color: #d16002; font-size: 18px;">here</a> to view next page</p>
+    </footer>
+  </body>
+</html>

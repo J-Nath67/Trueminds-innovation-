@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+  <head>
+    <title>Chucks Kitchen - bringing rich culinary heritage of Nigeria right to your doorstep</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Chucks Kitchen - bringing rich culinary heritage of Nigeria right to your doorstep" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <script src="https://kit.fontawesome.com/36b1c787e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body class="mainLP">
+    <header class="headerLP">
+        <div class="menuBar" id="stick">
+        <x>Chucks Kitchen</x>
+        <div class="tab">
+            <div>Home</div>
+            <div>Explore</div>
+            <div>My Orders</div>
+            <div>Account</div>
+            <div><a href="#">Login</a></div>
+        </div>
+        <div class="dropdown">
+        <button onclick="myFunction(this)" class="dropbtn">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+        </button>
+        </div>
+        </div>
+        <script>
+         window.onscroll = function()
+           {headFunction()};
+             var head = document.getElementById("stick");
+              var sticky = head.offsetTop;
+           function headFunction() {
+              if (window.pageYOffset >= sticky) {
+                head.classList.add("sticky")
+            }
+              else {
+                head.classList.remove("sticy");
+            }
+            }
+            function myFunction(y) {
+             var x = document.getElementById("SideMenu");
+             if (x.style.display === "block") {
+                  x.style.display = "none";
+             }
+             else {
+                 x.style.display = "block";
+            }
+                  y.classList.toggle("change");
+            }
+        </script>
+        <div class="SideMenu" id="SideMenu">
+        <ul>
+            <li><div>Home</div></li>
+            <li><div>Explore</div></li>
+            <li><div>My Orders</div></li>
+            <li><div>Account</div></li>
+            <li><div><a href="#">Login</a></div></li>
+        </ul>
+        </div>
+        <div class="overlayMP">
+            <h2>Chucks Kitchen</h2>
+            <h4>Chuks Kitchen Nigerian Home Cooking 4.8 (1.2k)</h4>
+        </div>
+    </header>
+    <div class="bodyMP">
+        <div class="menuMp">
+            <button onclick="menuFunction()"><h4>Menu Categories</h4>click to display menu....</button>
+            <ul id="menu">
+                <li><a href="#"><h5>Popular</h5></a></li>
+                <li><a href="#"><h5>Jollof Rice & Entrees</h5></a></li>
+                <li><a href="#"><h5>Swallow & Soups</h5></a></li>
+                <li><a href="#"><h5>Grills & Sides</h5></a></li>
+                <li><a href="#"><h5>Beverages</h5></a></li>
+                <li><a href="#"><h5>Desserts</h5></a></li>
+            </ul>
+        </div>
+        <script>
+      function menuFunction(y) {
+       var x = document.getElementById("menu");
+       if (x.style.display === "block") {
+            x.style.display = "none";
+       }
+       else {
+           x.style.display = "block";
+   }
+           y.classList.toggle("change");
+      }
+      </script>
+    <h2>Popular</h2>
+    <div class="popCtMp">
+        <a><img src="./images/img 1.png"><h4>Jollof Rice & Fried Chicken</h4><p>Our signature Jollof rice, served with cripsy fried chicken and plantain.</p><div class="breakMp"><k>&#8358 3,500</k> <button>+</button></div></a>
+        <a><img src="./images/image 8.png"><h4>Eba & Egusi Soup (Goat Meat)</h4><p>Hearty Egusi soup with tender goat meat, served with soft Eba.</p><div class="breakMp"><k>&#8358 3,500</k> <button>+</button></div></a>
+        <a><img src="./images/image 7.png"><h4>Pounded Yam & Edikaikong</h4><p>Traditional pounded yam with rich, leafy Edikaikong soup</p><div class="breakMp"><k>&#8358 3,800</k> <button>+</button></div></a>
+        <x><a href="#" style="background-color: #ddd; padding-left: 35%; margin-top: 20px; text-decoration: none;">View All Categories</a></x>
+        <y><a><img src="./images/image 5.png"><h4>Peppered Snail</h4><p>Spicy and savory peppered snail, perfect as starter.</p><div class="breakMp"><k>&#8358 2,500</k> <button>+</button></div></a></y>
+        <y><a><img src="./images/image 6.png"><h4>Grilled Tilapia Fish</h4><p>Whole grilled tilapia seasoned with our special spices</p><div class="breakMp"><k>&#8358 4,500</k> <button>+</button></div></a></y>
+        <y><a><img src="./images/img 1.png"><h4>Jollof Rice & Fried Chicken</h4><p>ur signature Jollof rice, served with cripsy fried chicken and plantain.</p><div class="breakMp"><k>&#8358 3,500</k> <button>+</button></div></a></y>
+    </div>
+    <h2>Jollof Rice & Entrees</h2>
+    <div class="popCtMp">
+        <a><img src="./images/image 3.png"><h4>Jollof Rice & Smoked Fish</h4><p>Flavourful jollof rice served with perfectly smoked fish.</p><div class="breakMp"><k>&#8358 3,500</k> <button>+</button></div></a>
+        <a><img src="./images/img 1.png"><h4>Party Jollof Rice (Veg)</h4><p>Vegitarian party jollof, full of rich flavors.</p><div class="breakMp"><k>&#8358 2,800</k> <button>+</button></div></a>
+        <a><img src="./images/img 1.png"><h4>Party Jollof Rice (Veg)</h4><p>Vegitarian party jollof, full of rich flavors.</p><div class="breakMp"><k>&#8358 3,500</k> <button>+</button></div></a>
+        <x><a href="#" style="background-color: #ddd; padding-left: 35%; margin-top: 20px; text-decoration: none;">View All Categories</a></x>
+    </div>
+    <h2>Swallow & Soups</h2>
+    <div class="popCtMp">
+        <a><img src="./images/image 1.png"><h4>Amala with Gbegiri & Ewedu</h4><p>Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.</p><div class="breakMp"><k>&#8358 3,100</k> <button>+</button></div></a>
+        <a><img src="./images/image 2.png"><h4>Fufu & Okra Soup (Fish)</h4><p>Light Fufu served with fresh okra soup and tilapia fish.</p><div class="breakMp"><k>&#8358 3,300</k> <button>+</button></div></a>
+        <a><img src="./images/image 2.png"><h4>Fufu & Okra Soup (Fish)</h4><p>Light Fufu served with fresh okra soup and tilapia fish.</p><div class="breakMp"><k>&#8358 3,500</k> <button>+</button></div></a>
+        <x><a href="#" style="background-color: #ddd; padding-left: 35%; margin-top: 20px; text-decoration: none;">View All Categories</a></x>
+    </div>
+    </div>
+    <footer class="landing">
+      <div class="red">
+        <p><b><x>Chucks Kitchen</x></b><br>Bringing the authentic flavours of Nigerian home cooking to your
+        table, with passion and care.</p>
+        <ul>
+          <li><b>Quick Links</b></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">My Order</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+          <li><b>Contact Us</b></li>
+          <li><a href="#">+234 801 234 5678</a></li>
+          <li><a href="#">hello@chukskitchen.com</a></li>
+          <li>123 Taste Blvd, Lagos, Nigeriat</li>
+        </ul>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <p>&copy 2020 Lift Media. All rights reserved.<br>I'll be stoping here, I really hoped you loved it so far &#129303 &#129303 &#129303<br>You can click <a href="Index.html" style="text-decoration: solid; color: #d16002; font-size: 18px;">here</a> to return back to the Index page</p></p>
+    </footer>
+  </body>
+</html>

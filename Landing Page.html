@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+  <head>
+    <title>Chucks Kitchen - bringing rich culinary heritage of Nigeria right to your doorstep</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Chucks Kitchen - bringing rich culinary heritage of Nigeria right to your doorstep" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <script src="https://kit.fontawesome.com/36b1c787e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body class="mainLP">
+    <header class="headerLP">
+        <div class="menuBar" id="stick">
+        <x>Chucks Kitchen</x>
+        <div class="tab">
+            <div>Home</div>
+            <div>Explore</div>
+            <div>My Orders</div>
+            <div>Account</div>
+            <div><a href="#">Login</a></div>
+        </div>
+        <div class="dropdown">
+        <button onclick="myFunction(this)" class="dropbtn">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+        </button>
+        </div>
+        </div>
+        <input type="text" placeholder="what are you craving for today?" title="type in category" class="search">
+        <script>
+         window.onscroll = function()
+           {headFunction()};
+             var head = document.getElementById("stick");
+              var sticky = head.offsetTop;
+           function headFunction() {
+              if (window.pageYOffset >= sticky) {
+                head.classList.add("sticky")
+            }
+              else {
+                head.classList.remove("sticy");
+            }
+            }
+            function myFunction(y) {
+             var x = document.getElementById("SideMenu");
+             if (x.style.display === "block") {
+                  x.style.display = "none";
+             }
+             else {
+                 x.style.display = "block";
+            }
+                  y.classList.toggle("change");
+            }
+        </script>
+        <div class="SideMenu" id="SideMenu">
+        <ul>
+            <li><div>Home</div></li>
+            <li><div>Explore</div></li>
+            <li><div>My Orders</div></li>
+            <li><div>Account</div></li>
+            <li><div><a href="#">Login</a></div></li>
+        </ul>
+        </div>
+        <div class="overlay">
+            <h2>The Heart of Nigerian Home Cooking</h2>
+            <h4>Handcrafted with passion, delivered with care</h4>
+            <br>
+            <a href="#">Discover what's new</a>
+        </div>
+    </header>
+    <div class="bodyLP">
+    <h4>Popular category</h4>
+    <div class="popCat">
+        <a><img src="./images/img 1.png"><p>Jollof Delights</p></a>
+        <a><img src="./images/Property 1=Variant2.png"><p>Swallow & Soups</p></a>
+        <a><img src="./images/Property 1=Variant10.png"><p>Grills & BBQ</p></a>
+        <x><a href="#" style="background-color: #ddd; text-align: center; text-decoration: none;">View All Categories</a></x>
+        <a><y><img src="./images/Property 1=Variant4.png"><p>Sweet Treats</p></y></a>
+        <a><y><img src="./images/Property 1=Variant2.png"><p>Jollof Delights</p></y></a>
+        <a><y><img src="./images/Property 1=Variant10.png"><p>Jollof Delights</p></y></a>
+    </div>
+    <h4>Chef's Specials</h4>
+    <div class="popCt">
+        <a><img src="./images/img 1.png"><h4>Jollof Rice & Fried Chicken</h4><p>Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p><div class="break"><k>&#8358 3,500</k> <button>Add to cart</button></div></a>
+        <a><img src="./images/Property 1=Variant7.png"><h4>Spicy Tilapia Pepper soup</h4><p>A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p><div class="break"><k>&#8358 3,500</k> <button>Add to cart</button></div></a>
+        <a><img src="./images/Property 1=Variant5.png"><h4>Jollof Rice & Fried Chicken</h4><p>Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p><div class="break"><k>&#8358 3,500</k> <button>Add to cart</button></div></a>
+        <x><a href="#" style="background-color: #ddd; text-align: center; text-decoration: none; margin-bottom: 30%;">View All Categories</a></x>
+        <a><y><img src="./images/img 1.png"><h4>Jollof Rice & Fried Chicken</h4><p>Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p><div class="break"><k>&#8358 3,500</k> <button>Add to cart</button></div></y></a>
+        <a><y><img src="./images/img 1.png"><h4>Jollof Rice & Smoked Chicken</h4><p>Our signature Jollof rice, cooked to perfection, served with succulent smoked chicken.</p><div class="break"><k>&#8358 3,500</k> <button>Add to cart</button></div></y></a>
+        <a><y><img src="./images/Property 1=Variant6.png"><h4>Egusi Soup & Pounded Yam</h4><p>Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam.</p><div class="break"><k>&#8358 3,500</k> <button>Add to cart</button></div></y></a>
+    </div>
+    </div>
+    <div class="relay">
+            <h2>Introducing Our New Menu Additions!</h2>
+            <h4>Explore exciting new dishes, crafted with the freshest ingredients and authentic Nigerian flavours. Limited time offer!</h4>
+            <br>
+            <a href="#">Discover what's new</a>
+        </div>
+    <footer class="landing">
+      <div class="red">
+        <p><b><x>Chucks Kitchen</x></b><br>Bringing the authentic flavours of Nigerian home cooking to your
+        table, with passion and care.</p>
+        <ul>
+          <li><b>Quick Links</b></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">My Order</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+          <li><b>Contact Us</b></li>
+          <li><a href="#">+234 801 234 5678</a></li>
+          <li><a href="#">hello@chukskitchen.com</a></li>
+          <li>123 Taste Blvd, Lagos, Nigeriat</li>
+        </ul>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <p>&copy 2020 Lift Media. All rights reserved.<br>I hope you liking it so far &#128522 &#128522 &#128522 please click <a href="Main page.html" style="text-decoration: solid; color: #d16002; font-size: 18px;">here</a> to view next page</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#F97316">
+    
+    <!-- Fork -->
+    <rect x="170" y="60" width="20" height="140" rx="10"/>
+    <rect x="200" y="60" width="20" height="140" rx="10"/>
+    <rect x="230" y="60" width="20" height="140" rx="10"/>
+    <rect x="260" y="60" width="20" height="140" rx="10"/>
+    <rect x="200" y="200" width="40" height="200" rx="20"/>
+    
+    <!-- Knife -->
+    <path d="M330 60 
+             Q380 120 380 200 
+             L380 380 
+             Q380 420 340 420 
+             L310 420 
+             Q330 380 330 340 
+             Z"/>
+  </g>
+</svg>
